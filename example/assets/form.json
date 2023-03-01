@@ -1,0 +1,61 @@
+{
+    "form": {
+        "fields": [
+            {
+                "type": "text",
+                "key": "field1",
+                "label": "labe1",
+                "value": "value1",
+                "enabled": false
+            },
+            {
+                "type": "text",
+                "label": "Label2",
+                "key": "field2",
+                "hint": "This is a simple hint",
+                "helperText": "This is a helper text"
+            },
+            {
+                "type": "date",
+                "label": "datelabel",
+                "key": "date1"
+            },
+            {
+                "type": "time",
+                "label": "timelabel",
+                "key": "time1"
+            },
+            {
+                "type": "datetime",
+                "label": "datetimelabel",
+                "key": "datetime1",
+                "enabled": false
+            },
+            {
+                "type": "checkbox",
+                "label": "Checkbox label1",
+                "key": "checkbox1"
+            },
+            {
+                "type": "radio",
+                "label": "Radio label1",
+                "key": "radio1",
+                "options": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "type": "dropdown",
+                "label": "Dropdown label1",
+                "key": "dropdown1",
+                "options": [
+                    "a",
+                    "b",
+                    "c"
+                ]
+            }
+        ]
+    }
+}
